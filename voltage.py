@@ -53,9 +53,9 @@ for i in range(0, 2) :
         lsb = data1[2 + i * 3]
 
         # Convert the data to ampere
-        current = (msb1 * 65536 + msb * 256 + lsb) / 1000.0
+        volt = (msb1 * 65536 + msb * 256 + lsb) / 1000.0
 
         # Output data to screen
         print "Channel no : %d " %(i + 1)
-        print "Current Value : %.3f A" %current
+        print "volt Value : %.3f A" %volt
 
