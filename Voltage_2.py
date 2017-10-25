@@ -40,7 +40,7 @@ time.sleep(0.5)
 # I2C address, 0x2A(42)
 # Read data back from 0x55(85), No. of Channels * 3 bytes
 # current MSB1, current MSB, current LSB
-data1 = bus.read_i2c_block_data(0x2A, 0x55, 1*3)
+data1 = bus.read_i2c_block_data(0x2A, 0x55, 1*2)
 
 # Convert the data
 for i in range(0, 1) :
