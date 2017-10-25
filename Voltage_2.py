@@ -29,7 +29,7 @@ noOfChannel = data[2]
 
 # Output data to screen
 print "Type of Sensor : %d" %typeOfSensor
-print "Maximum Volt : %d A" %maxvolt
+print "Maximum Volt : %d V" %maxvolt
 print "No. of Channels : %d" %noOfChannel
 
 # read calibration
