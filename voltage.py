@@ -30,7 +30,7 @@ noOfChannel = data[2]
 
 # Output data to screen
 print "Type of Sensor : %d" %typeOfSensor
-print "Maximum Current : %d A" %maxCurrent
+print "Maximum Voltage : %d V" %maxCurrent
 print "No. of Channels : %d" %noOfChannel
 
 # PECMAC125A address, 0x2A(42)
